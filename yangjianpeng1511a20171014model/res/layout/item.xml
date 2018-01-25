@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="张三" 
+            android:textSize="16sp"
+            />
+
+       <TextView 
+           android:id="@+id/tv02"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="123456"
+           android:textSize="16sp"
+           />
+    </LinearLayout>
+     <Button 
+         android:id="@+id/bt2"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:text="删除"
+         android:layout_margin="10dp"
+         android:background="@drawable/shap"
+         />
+     <Button 
+         android:id="@+id/bt3"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:text="修改"
+         android:layout_margin="10dp"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/shap"
+         />
+</LinearLayout>
